@@ -56,7 +56,7 @@ class RegisterView: UIView {
         textField.translatesAutoresizingMaskIntoConstraints = false
         return textField
     }()
-    
+
     lazy var registerButton: UIButton = {
         let button = UIButton(type: .system)
         button.backgroundColor = .appIndigo.withAlphaComponent(0.8)
@@ -155,7 +155,7 @@ extension RegisterView{
     private func addRegisterButton(){
         addSubview(registerButton)
         registerButton.snp.makeConstraints { make in
-            make.top.equalTo(passwordText.snp.bottom).offset(50)
+            make.top.equalTo(passwordText.snp.bottom).offset(60)
             make.leading.equalTo(25)
             make.trailing.equalTo(-25)
             make.height.equalTo(60)
