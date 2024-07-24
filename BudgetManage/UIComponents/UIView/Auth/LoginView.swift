@@ -78,22 +78,6 @@ class LoginView: UIView {
         return textField
     }()
     
-    private let rememberMeSwitch: UISwitch = {
-        let switchControl = UISwitch()
-        switchControl.onTintColor = .appIndigo
-        switchControl.thumbTintColor = .appPurpleLight
-        switchControl.translatesAutoresizingMaskIntoConstraints = false
-        return switchControl
-    }()
-    
-    private lazy var rememberLabel: UILabel = {
-        let label  = UILabel()
-        label.text = "Remember Me"
-        label.font = UIFont.systemFont(ofSize: 14)
-        label.textColor = .appGray
-        return label
-    }()
-    
     lazy var loginButton: UIButton = {
         let button = UIButton(type: .system)
         button.backgroundColor = .appIndigo.withAlphaComponent(0.8)
@@ -144,8 +128,6 @@ extension LoginView{
         addEmailText()
         addPassword()
         addPasswordText()
-        addRememberSwitch()
-        addRememberLabel()
         addLoginButton()
         addtoRegisterLabel()
         addRegisterButton()
@@ -211,26 +193,10 @@ extension LoginView{
         }
     }
     
-    private func addRememberSwitch(){
-        addSubview(rememberMeSwitch)
-        rememberMeSwitch.snp.makeConstraints { make in
-            make.top.equalTo(passwordText.snp.bottom).offset(10)
-            make.leading.equalTo(25)
-        }
-    }
-    
-    private func addRememberLabel(){
-        addSubview(rememberLabel)
-        rememberLabel.snp.makeConstraints { make in
-            make.leading.equalTo(rememberMeSwitch.snp.trailing).offset(10)
-            make.top.equalTo(passwordText.snp.bottom).offset(15)
-        }
-    }
-    
     private func addLoginButton(){
         addSubview(loginButton)
         loginButton.snp.makeConstraints { make in
-            make.top.equalTo(passwordText.snp.bottom).offset(60)
+            make.top.equalTo(passwordText.snp.bottom).offset(50)
             make.leading.equalTo(25)
             make.trailing.equalTo(-25)
             make.height.equalTo(60)
