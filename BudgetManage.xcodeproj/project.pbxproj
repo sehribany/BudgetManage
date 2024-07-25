@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		986311F32C52445C00C5A783 /* TransactionCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986311F22C52445C00C5A783 /* TransactionCategory.swift */; };
+		986311FD2C524C3100C5A783 /*  ExchangeRateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986311FC2C524C3100C5A783 /*  ExchangeRateService.swift */; };
+		986312002C52593500C5A783 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 986311FF2C52593500C5A783 /* Alamofire */; };
 		9893B8682C512C1D00AB70C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893B8672C512C1D00AB70C8 /* AppDelegate.swift */; };
 		9893B86A2C512C1D00AB70C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893B8692C512C1D00AB70C8 /* SceneDelegate.swift */; };
 		9893B8712C512C1E00AB70C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9893B8702C512C1E00AB70C8 /* Assets.xcassets */; };
@@ -27,10 +30,28 @@
 		9893B8A12C5133F600AB70C8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893B8A02C5133F600AB70C8 /* LoginViewController.swift */; };
 		9893B8A52C51354E00AB70C8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893B8A42C51354E00AB70C8 /* LoginView.swift */; };
 		9893B8A82C51357000AB70C8 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9893B8A72C51357000AB70C8 /* SnapKit */; };
-		9893B8AA2C51357000AB70C8 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 9893B8A92C51357000AB70C8 /* SnapKit-Dynamic */; };
+		9893B8AE2C51364900AB70C8 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9893B8AD2C51364900AB70C8 /* Colors.xcassets */; };
+		9893B8B02C51470900AB70C8 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893B8AF2C51470900AB70C8 /* RegisterView.swift */; };
+		9893B8B22C514E3F00AB70C8 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893B8B12C514E3F00AB70C8 /* RegisterViewModel.swift */; };
+		9893B8B42C514E4D00AB70C8 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893B8B32C514E4D00AB70C8 /* RegisterViewController.swift */; };
+		98A4EA1C2C518A7A00C82188 /* VerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A4EA1B2C518A7A00C82188 /* VerificationViewController.swift */; };
+		98A4EA1E2C51939100C82188 /* VerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A4EA1D2C51939100C82188 /* VerificationView.swift */; };
+		98A4EA202C5193AD00C82188 /* VerificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A4EA1F2C5193AD00C82188 /* VerificationViewModel.swift */; };
+		98A4EA312C51AE4E00C82188 /* expense.json in Resources */ = {isa = PBXBuildFile; fileRef = 98A4EA302C51AE4E00C82188 /* expense.json */; };
+		98A4EA332C51AE5600C82188 /* income.json in Resources */ = {isa = PBXBuildFile; fileRef = 98A4EA322C51AE5600C82188 /* income.json */; };
+		98A4EA3A2C51B2EA00C82188 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A4EA392C51B2EA00C82188 /* Transaction.swift */; };
+		98A4EA422C51B87A00C82188 /* TransictionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A4EA412C51B87A00C82188 /* TransictionViewModel.swift */; };
+		98A4EA442C51B89600C82188 /* TransictionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A4EA432C51B89600C82188 /* TransictionViewController.swift */; };
+		98A4EA462C51B8BB00C82188 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A4EA452C51B8BB00C82188 /* ListCell.swift */; };
+		98A4EA482C51BE1900C82188 /* AddTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A4EA472C51BE1900C82188 /* AddTransactionViewController.swift */; };
+		98A4EA4B2C51C1E800C82188 /* AddTransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A4EA4A2C51C1E800C82188 /* AddTransactionViewModel.swift */; };
+		98A4EA4E2C51C31600C82188 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A4EA4D2C51C31600C82188 /* DetailViewModel.swift */; };
+		98A4EA502C51C31E00C82188 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A4EA4F2C51C31E00C82188 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		986311F22C52445C00C5A783 /* TransactionCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCategory.swift; sourceTree = "<group>"; };
+		986311FC2C524C3100C5A783 /*  ExchangeRateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " ExchangeRateService.swift"; sourceTree = "<group>"; };
 		9893B8642C512C1D00AB70C8 /* BudgetManage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BudgetManage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9893B8672C512C1D00AB70C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9893B8692C512C1D00AB70C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +63,23 @@
 		9893B89E2C5133E700AB70C8 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		9893B8A02C5133F600AB70C8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9893B8A42C51354E00AB70C8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		9893B8AD2C51364900AB70C8 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		9893B8AF2C51470900AB70C8 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		9893B8B12C514E3F00AB70C8 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		9893B8B32C514E4D00AB70C8 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		98A4EA1B2C518A7A00C82188 /* VerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationViewController.swift; sourceTree = "<group>"; };
+		98A4EA1D2C51939100C82188 /* VerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationView.swift; sourceTree = "<group>"; };
+		98A4EA1F2C5193AD00C82188 /* VerificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationViewModel.swift; sourceTree = "<group>"; };
+		98A4EA302C51AE4E00C82188 /* expense.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = expense.json; sourceTree = "<group>"; };
+		98A4EA322C51AE5600C82188 /* income.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = income.json; sourceTree = "<group>"; };
+		98A4EA392C51B2EA00C82188 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		98A4EA412C51B87A00C82188 /* TransictionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransictionViewModel.swift; sourceTree = "<group>"; };
+		98A4EA432C51B89600C82188 /* TransictionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransictionViewController.swift; sourceTree = "<group>"; };
+		98A4EA452C51B8BB00C82188 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		98A4EA472C51BE1900C82188 /* AddTransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionViewController.swift; sourceTree = "<group>"; };
+		98A4EA4A2C51C1E800C82188 /* AddTransactionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionViewModel.swift; sourceTree = "<group>"; };
+		98A4EA4D2C51C31600C82188 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		98A4EA4F2C51C31E00C82188 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +96,23 @@
 				9893B8872C51312500AB70C8 /* FirebaseAuth in Frameworks */,
 				9893B88F2C51312500AB70C8 /* FirebaseFirestore in Frameworks */,
 				9893B8912C51312500AB70C8 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				986312002C52593500C5A783 /* Alamofire in Frameworks */,
 				9893B8932C51312500AB70C8 /* FirebaseFirestoreSwift in Frameworks */,
 				9893B8A82C51357000AB70C8 /* SnapKit in Frameworks */,
-				9893B8AA2C51357000AB70C8 /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		986311F42C524AB900C5A783 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				986311FC2C524C3100C5A783 /*  ExchangeRateService.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 		9893B85B2C512C1D00AB70C8 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +157,10 @@
 			isa = PBXGroup;
 			children = (
 				9893B8982C51328900AB70C8 /* Auth */,
+				98A4EA1A2C518A6100C82188 /* Verification */,
+				98A4EA402C51B86C00C82188 /* Transiction */,
+				98A4EA492C51C1CE00C82188 /* AddTransaction */,
+				98A4EA4C2C51C30600C82188 /* Detail */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -128,6 +178,7 @@
 			children = (
 				9893B8702C512C1E00AB70C8 /* Assets.xcassets */,
 				9893B89C2C5133BF00AB70C8 /* Images.xcassets */,
+				9893B8AD2C51364900AB70C8 /* Colors.xcassets */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -135,6 +186,9 @@
 		9893B87F2C512D1000AB70C8 /* DataProvider */ = {
 			isa = PBXGroup;
 			children = (
+				9893B8B52C51547E00AB70C8 /* Model */,
+				986311F42C524AB900C5A783 /* Manager */,
+				98A4EA2F2C51AE4300C82188 /* Mock */,
 			);
 			path = DataProvider;
 			sourceTree = "<group>";
@@ -143,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				9893B8A22C51353400AB70C8 /* UIView */,
+				98A4EA3B2C51B3A800C82188 /* UICell */,
 			);
 			path = UIComponents;
 			sourceTree = "<group>";
@@ -168,6 +223,8 @@
 		9893B89A2C5132A900AB70C8 /* Register */ = {
 			isa = PBXGroup;
 			children = (
+				9893B8B12C514E3F00AB70C8 /* RegisterViewModel.swift */,
+				9893B8B32C514E4D00AB70C8 /* RegisterViewController.swift */,
 			);
 			path = Register;
 			sourceTree = "<group>";
@@ -175,17 +232,73 @@
 		9893B8A22C51353400AB70C8 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
-				9893B8A32C51353F00AB70C8 /* Auth */,
+				9893B8A42C51354E00AB70C8 /* LoginView.swift */,
+				9893B8AF2C51470900AB70C8 /* RegisterView.swift */,
+				98A4EA1D2C51939100C82188 /* VerificationView.swift */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
 		};
-		9893B8A32C51353F00AB70C8 /* Auth */ = {
+		9893B8B52C51547E00AB70C8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				9893B8A42C51354E00AB70C8 /* LoginView.swift */,
+				98A4EA392C51B2EA00C82188 /* Transaction.swift */,
+				986311F22C52445C00C5A783 /* TransactionCategory.swift */,
 			);
-			path = Auth;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		98A4EA1A2C518A6100C82188 /* Verification */ = {
+			isa = PBXGroup;
+			children = (
+				98A4EA1F2C5193AD00C82188 /* VerificationViewModel.swift */,
+				98A4EA1B2C518A7A00C82188 /* VerificationViewController.swift */,
+			);
+			path = Verification;
+			sourceTree = "<group>";
+		};
+		98A4EA2F2C51AE4300C82188 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				98A4EA322C51AE5600C82188 /* income.json */,
+				98A4EA302C51AE4E00C82188 /* expense.json */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		98A4EA3B2C51B3A800C82188 /* UICell */ = {
+			isa = PBXGroup;
+			children = (
+				98A4EA452C51B8BB00C82188 /* ListCell.swift */,
+			);
+			path = UICell;
+			sourceTree = "<group>";
+		};
+		98A4EA402C51B86C00C82188 /* Transiction */ = {
+			isa = PBXGroup;
+			children = (
+				98A4EA412C51B87A00C82188 /* TransictionViewModel.swift */,
+				98A4EA432C51B89600C82188 /* TransictionViewController.swift */,
+			);
+			path = Transiction;
+			sourceTree = "<group>";
+		};
+		98A4EA492C51C1CE00C82188 /* AddTransaction */ = {
+			isa = PBXGroup;
+			children = (
+				98A4EA4A2C51C1E800C82188 /* AddTransactionViewModel.swift */,
+				98A4EA472C51BE1900C82188 /* AddTransactionViewController.swift */,
+			);
+			path = AddTransaction;
+			sourceTree = "<group>";
+		};
+		98A4EA4C2C51C30600C82188 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				98A4EA4D2C51C31600C82188 /* DetailViewModel.swift */,
+				98A4EA4F2C51C31E00C82188 /* DetailViewController.swift */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,7 +329,7 @@
 				9893B8942C51312500AB70C8 /* FirebaseStorage */,
 				9893B8962C51312500AB70C8 /* FirebaseStorageCombine-Community */,
 				9893B8A72C51357000AB70C8 /* SnapKit */,
-				9893B8A92C51357000AB70C8 /* SnapKit-Dynamic */,
+				986311FF2C52593500C5A783 /* Alamofire */,
 			);
 			productName = BudgetManage;
 			productReference = 9893B8642C512C1D00AB70C8 /* BudgetManage.app */;
@@ -249,6 +362,7 @@
 			packageReferences = (
 				9893B8832C51312500AB70C8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				9893B8A62C51357000AB70C8 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				986311FE2C52593500C5A783 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = 9893B8652C512C1D00AB70C8 /* Products */;
 			projectDirPath = "";
@@ -264,10 +378,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9893B8AE2C51364900AB70C8 /* Colors.xcassets in Resources */,
 				9893B8712C512C1E00AB70C8 /* Assets.xcassets in Resources */,
 				9893B89D2C5133BF00AB70C8 /* Images.xcassets in Resources */,
+				98A4EA332C51AE5600C82188 /* income.json in Resources */,
 				9893B8742C512C1E00AB70C8 /* Base in Resources */,
 				9893B8822C512F5B00AB70C8 /* GoogleService-Info.plist in Resources */,
+				98A4EA312C51AE4E00C82188 /* expense.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,8 +396,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				9893B89F2C5133E700AB70C8 /* LoginViewModel.swift in Sources */,
+				98A4EA482C51BE1900C82188 /* AddTransactionViewController.swift in Sources */,
+				98A4EA4E2C51C31600C82188 /* DetailViewModel.swift in Sources */,
+				98A4EA442C51B89600C82188 /* TransictionViewController.swift in Sources */,
+				986311F32C52445C00C5A783 /* TransactionCategory.swift in Sources */,
+				98A4EA422C51B87A00C82188 /* TransictionViewModel.swift in Sources */,
+				98A4EA502C51C31E00C82188 /* DetailViewController.swift in Sources */,
 				9893B8682C512C1D00AB70C8 /* AppDelegate.swift in Sources */,
+				9893B8B22C514E3F00AB70C8 /* RegisterViewModel.swift in Sources */,
+				98A4EA1E2C51939100C82188 /* VerificationView.swift in Sources */,
+				9893B8B42C514E4D00AB70C8 /* RegisterViewController.swift in Sources */,
+				98A4EA3A2C51B2EA00C82188 /* Transaction.swift in Sources */,
 				9893B8A12C5133F600AB70C8 /* LoginViewController.swift in Sources */,
+				98A4EA1C2C518A7A00C82188 /* VerificationViewController.swift in Sources */,
+				98A4EA4B2C51C1E800C82188 /* AddTransactionViewModel.swift in Sources */,
+				98A4EA462C51B8BB00C82188 /* ListCell.swift in Sources */,
+				98A4EA202C5193AD00C82188 /* VerificationViewModel.swift in Sources */,
+				9893B8B02C51470900AB70C8 /* RegisterView.swift in Sources */,
+				986311FD2C524C3100C5A783 /*  ExchangeRateService.swift in Sources */,
 				9893B8A52C51354E00AB70C8 /* LoginView.swift in Sources */,
 				9893B86A2C512C1D00AB70C8 /* SceneDelegate.swift in Sources */,
 			);
@@ -497,6 +630,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		986311FE2C52593500C5A783 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "http://github.com//Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
 		9893B8832C51312500AB70C8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
@@ -516,6 +657,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		986311FF2C52593500C5A783 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 986311FE2C52593500C5A783 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
 		9893B8842C51312500AB70C8 /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 9893B8832C51312500AB70C8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
@@ -570,11 +716,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 9893B8A62C51357000AB70C8 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
-		};
-		9893B8A92C51357000AB70C8 /* SnapKit-Dynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 9893B8A62C51357000AB70C8 /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = "SnapKit-Dynamic";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
