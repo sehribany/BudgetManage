@@ -1,0 +1,44 @@
+{
+  "expenseCategories": [
+    {
+      "id": 1,
+      "name": "Alışveriş"
+    },
+    {
+      "id": 2,
+      "name": "Giyim"
+    },
+    {
+      "id": 3,
+      "name": "Kira"
+    },
+    {
+      "id": 4,
+      "name": "Ulaşım"
+    },
+    {
+      "id": 5,
+      "name": "Eğitim"
+    },
+    {
+      "id": 6,
+      "name": "Sağlık"
+    },
+    {
+      "id": 7,
+      "name": "Yemek"
+    },
+    {
+      "id": 8,
+      "name": "Eğlence"
+    },
+    {
+      "id": 9,
+      "name": "Fatura"
+    },
+    {
+      "id": 10,
+      "name": "Diğer"
+    }
+  ]
+}

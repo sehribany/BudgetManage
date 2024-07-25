@@ -1,0 +1,32 @@
+{
+  "incomeCategories": [
+    {
+      "id": 1,
+      "name": "Maaş"
+    },
+    {
+      "id": 2,
+      "name": "Serbest Çalışma"
+    },
+    {
+      "id": 3,
+      "name": "Yatırım"
+    },
+    {
+      "id": 4,
+      "name": "Kira Geliri"
+    },
+    {
+      "id": 5,
+      "name": "Hediye"
+    },
+    {
+      "id": 6,
+      "name": "Prim"
+    },
+    {
+      "id": 7,
+      "name": "Diğer"
+    }
+  ]
+}
