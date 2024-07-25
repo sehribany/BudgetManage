@@ -34,10 +34,15 @@ class LoginViewController: UIViewController {
     }
     
     // MARK: - Bindings Setup
+    
     private func setupBindings() {
         viewModel.isUserLoggedIn = { [weak self] success, message in
             guard let self = self else { return }
-            self.showAlert(message: message ?? "An error occurred.")
+            if success {
+                self.navigateToHomeScreen()
+            } else {
+                self.showAlert(message: message ?? "An error occurred.")
+            }
         }
         
         viewModel.isInputValid = { [weak self] isValid in
@@ -47,6 +52,7 @@ class LoginViewController: UIViewController {
         loginView.emailText.addTarget(self, action: #selector(textFieldDidChange), for: .editingChanged)
         loginView.passwordText.addTarget(self, action: #selector(textFieldDidChange), for: .editingChanged)
     }
+    
     
     // MARK: - Actions
     @objc private func loginButtonTapped() {
@@ -76,5 +82,8 @@ class LoginViewController: UIViewController {
             loginView.emailText.text = savedEmail
         }
     }
+    
+    private func navigateToHomeScreen() {
+        navigationController?.pushViewController(TransactionViewController(), animated: true)
+    }
 }
-
